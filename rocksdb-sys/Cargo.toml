@@ -19,4 +19,4 @@ static = []
 libc = "0.2"
 
 [build-dependencies]
-gcc = { version = "0.3", features = ["parallel"] }
+gcc = {git="https://github.com/octo47/gcc-rs",features = ["parallel"],branch="discovery-gcc-paths"}
